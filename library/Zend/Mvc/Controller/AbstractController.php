@@ -125,7 +125,7 @@ abstract class AbstractController implements
     /**
      * Get request object
      *
-     * @return Request
+     * @return HttpRequest
      */
     public function getRequest()
     {
@@ -139,7 +139,7 @@ abstract class AbstractController implements
     /**
      * Get response object
      *
-     * @return Response
+     * @return HttpResponse
      */
     public function getResponse()
     {
